@@ -8,7 +8,7 @@ u8g2的开源链接：https://github.com/olikraus/u8g2
 
 首先我们需要安装mingw编译环境，这个网上有挺多教程，我暂时不做说明，可以直接把我提供的在tools里面mingw64解压。安装完成后就有以下目录
 
-![image-20250123115735567](../../../Project/Stm32BalanceCar/05_Document/image/STM32移植U8G2/image-20250123115735567.png)
+![image-20250123115735567](image/STM32移植U8G2/image-20250123115735567.png)
 
 如果是自己安装的，在bin目录下有一个**mingw32-make.exe**，将其复制一份，命名为**make.exe**
 
@@ -28,15 +28,15 @@ E:\Program\mingw64\bin
 
 他的版本已经到3.x了，但是为了不出问题，我们下载2.x的。下载图中文件。
 
-![image-20250123135203384](../../../Project/Stm32BalanceCar/05_Document/image/STM32移植U8G2/image-20250123135203384.png)
+![image-20250123135203384](image/STM32移植U8G2/image-20250123135203384.png)
 
 下载后解压，处理**SDL2-devel-2.30.11-mingw.zip**，它解压后应该是如下：
 
-![image-20250123120154592](../../../Project/Stm32BalanceCar/05_Document/image/STM32移植U8G2/image-20250123120154592.png)
+![image-20250123120154592](image/STM32移植U8G2/image-20250123120154592.png)
 
 然后把其中的**x86_64-w64-mingw32**文件夹，复制到我们之前安装的mingw的相同文件目录下，直接覆盖，理论上应该也不会有重复，复制完成后，能发现有一些文件夹多了SDL相关的配置。
 
-![image-20250123120327324](../../../Project/Stm32BalanceCar/05_Document/image/STM32移植U8G2/image-20250123120327324.png)
+![image-20250123120327324](image/STM32移植U8G2/image-20250123120327324.png)
 
  
 
